@@ -38,13 +38,12 @@ li {
 .menu {
   display: flex;
   justify-content: space-around; }
-  .menu li:last-child {
-    border: 1px solid white;
-    border-radius: 8px; }
   .menu li {
     font-family: 'Cantarell', sans-serif;
     padding: 10px 30px;
     border-bottom: 1px solid white; }
+    .menu li li:last-child {
+      border-bottom: none; }
     .menu li a {
       color: #bfbfbf;
       font-size: 20px; }
@@ -68,3 +67,16 @@ li {
   border: none;
   border-radius: 8px;
   font-size: 15px; }
+
+.header_menu {
+  margin-bottom: 80px; }
+
+#signlogin {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 10px;
+  width: 120px; }
+
+/*# sourceMappingURL=mainpage.css.map */

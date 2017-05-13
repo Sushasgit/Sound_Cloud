@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Cantarell");
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.popup-inner {
+  width: 350px;
+  height: 150px;
+  background-color: #fff;
+  padding: 40px;
+  position: absolute;
+  top: 13%;
+  left: 35%;
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+  box-shadow: -15px -15px 2px -5px rgba(160, 82, 45, 0.5), -15px 15px 2px -5px rgba(0, 255, 255, 0.5), 15px -15px 2px -5px rgba(204, 102, 255, 0.5), 15px 15px 2px -5px rgba(103, 58, 183, 0.1); }
+
+.popup-close {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  font: 20px Helvetica, sans-serif;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: #0940b0;
+  color: #fff;
+  cursor: pointer; }
+
+.formelem {
+  margin: 5px;
+  color: #ffffff;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 18px; }
+  .formelem label {
+    display: block; }
+  .formelem input {
+    width: 200px;
+    height: 20px;
+    border-radius: 9px; }
+
+.login {
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 5px;
+  width: 150px;
+  position: absolute;
+  left: 14%;
+  border: 2px solid #ffffff;
+  border-radius: 9px;
+  color: #ffffff;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 15px; }
+
+/*# sourceMappingURL=popup.css.map */

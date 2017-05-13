@@ -45,16 +45,15 @@ li {
  .menu{
 	display: flex;
 	justify-content:space-around;
-	li:last-child{
-			border: 1px solid white;
-			border-radius: 8px;
-		}
+	
 	li{
 		// margin: 20px;
 		font-family: 'Cantarell', sans-serif;
 		padding:10px 30px;
 		border-bottom: 1px solid white;
-
+	li:last-child {
+			border-bottom: none;
+		}
 		a{
 			color:	  #bfbfbf;
 			font-size: 20px;
@@ -86,7 +85,17 @@ img{
 	border-radius: 8px;
 	font-size:15px;
 }
-
+.header_menu{
+	margin-bottom: 80px;
+}
+#signlogin{
+	background-color: transparent;
+	color:#ffffff;
+	border-radius: 8px;
+	font-size:15px;
+	padding: 10px;
+	width: 120px;
+}
 // .mainslider{
 // 	padding:20px;
 // }
