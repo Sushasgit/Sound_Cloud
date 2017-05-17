@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+*{
+	margin:0;
+	padding: 0;
+}
+#audio{
+	background-color: black;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	a{
+		display: block;
+		text-decoration: none;
+		font-family: 'Russo One', sans-serif;
+		color:white;
+		font-size: 20px;
+	}
+	section:after{
+		// content: url(../img/audio/arrow.png);
+		content: '';
+
+	height: 3px;
+	background-color: #a64dff;;
+	display: block;
+	background-repeat: no-repeat;
+	margin:20px auto;
+	}
+	.fade{
+		display: none;
+		margin: 15px;
+	}
+
+
+}
+.musicpart{
+	padding:60px 0;
+	background-color: black;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	h2{
+	font-family: 'Russo One', sans-serif;
+	color:white;
+	font-size: 60px;
+
+	}
+}
+.scrinimg{
+	height:226px;
+	width: 300px;
+}
+.linkshowmore{
+	background-color: black;
+	text-align: right;
+	a{
+		display: inline-block;
+		text-decoration: none;
+		font-family: 'Russo One', sans-serif;
+		color:white;
+		font-size: 25px;
+		padding:15px;
+		margin-right: 35px;
+
+	}
+	a:hover{
+		color:#a64dff;
+
+	}
+}

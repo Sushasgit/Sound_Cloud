@@ -71,6 +71,9 @@ li {
 .header_menu {
   margin-bottom: 80px; }
 
+#audio a:hover {
+  color: #a64dff; }
+
 #signlogin {
   background-color: transparent;
   color: #ffffff;
@@ -78,5 +81,10 @@ li {
   font-size: 15px;
   padding: 10px;
   width: 120px; }
+
+.aboutus {
+  background-image: url("img/Aboutus/aboutus.jpeg");
+  background-size: cover;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=mainpage.css.map */

@@ -88,6 +88,11 @@ img{
 .header_menu{
 	margin-bottom: 80px;
 }
+#audio{
+	a:hover{
+		color: #a64dff;
+	}
+}
 #signlogin{
 	background-color: transparent;
 	color:#ffffff;
@@ -99,3 +104,9 @@ img{
 // .mainslider{
 // 	padding:20px;
 // }
+
+.aboutus{
+	background-image: url('img/Aboutus/aboutus.jpeg');
+	background-size:cover;
+	background-attachment: fixed
+}
